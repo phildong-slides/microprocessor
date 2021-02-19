@@ -47,6 +47,8 @@
         width: 1024,
         height: 768,
         autoPlayMedia: true,
+        slideNumber: "c/t",
+        preloadIframes: true,
         math: {
           mathjax: "mathjax/MathJax.js",
           config: "TeX-AMS_HTML-full",
@@ -62,6 +64,7 @@
         },
         spotlight: {
           presentingCursor: "default",
+          initialPresentationMode: false,
         },
         dependencies: [{ src: "plugin/spotlight/spotlight.js" }],
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath],
