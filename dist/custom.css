@@ -16,11 +16,13 @@ iframe.plot {
   overflow: hidden;
 }
 p.center {
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
+  font-size: 1em;
+  text-align: justify;
 }
 h1.slide_title {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 h1.slide_subtitle {
   font-size: 1.6em;

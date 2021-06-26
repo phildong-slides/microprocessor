@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-	<title>reveal.js</title>
+    <title>microprocessor</title>
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
@@ -20,21 +20,141 @@
     <link rel="stylesheet" href="dist/custom.css" />
   </head>
 
-<body>
-	<div class="reveal">
-		<div class="slides">
-			<section>Slide 1</section>
-			<section>
-				<h3>The Lorenz Equations</h3>
-
-				\[\begin{aligned}
-				\dot{x} &amp; = \sigma(y-x) \\
-				\dot{y} &amp; = \rho x - y - xz \\
-				\dot{z} &amp; = -\beta z + xy
-				\end{aligned} \]
-			</section>
-		</div>
-	</div>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1 class="slide_title">
+            Could a Neuroscientist Understand a Microprocessor?
+          </h1>
+          <h1 class="slide_author">Eric Jonas, Konrad Paul Kording</h1>
+        </section>
+        <section>
+          <h1 class="slide_heading">Take Home</h1>
+          <p class="center">
+            Current approaches in neuroscience failed to help us understand a
+            microprocessor.
+          </p>
+        </section>
+        <section data-auto-animate>
+          <h1 class="slide_heading">Why should we care?</h1>
+          <div style="font-size: 0.8em">
+            <p class="fragment" data-markdown>**Microprocessor**</p>
+            <ul>
+              <li class="fragment" data-markdown>
+                information encoded in **bits**.
+              </li>
+              <li class="fragment" data-markdown>
+                information implemented as **electrical charges**.
+              </li>
+              <li class="fragment" data-markdown>
+                elemental computing units are **transistors**.
+              </li>
+              <li class="fragment" data-markdown>
+                computation fundamentally **boolean**.
+              </li>
+              <li class="fragment" data-markdown>
+                communication usually regulated by **synchronous clock**.
+              </li>
+              <li class="fragment" data-markdown>has **finite states**</li>
+            </ul>
+            <p class="fragment">...</p>
+          </div>
+        </section>
+        <section data-auto-animate>
+          <h1 class="slide_heading">Why should we care?</h1>
+          <div class="row">
+            <div style="color: darkgray; font-size: 0.6em">
+              <p data-markdown>**Microprocessor**</p>
+              <ul>
+                <li data-markdown>information encoded in **bits**.</li>
+                <li data-markdown>
+                  information implemented as **electrical charges**.
+                </li>
+                <li data-markdown>
+                  elemental computing units are **transistors**.
+                </li>
+                <li data-markdown>computation fundamentally **boolean**.</li>
+                <li data-markdown>
+                  communication usually regulated by **synchronous clock**.
+                </li>
+                <li data-markdown>has **finite states**</li>
+              </ul>
+              <p>...</p>
+            </div>
+            <div style="width: 50px"></div>
+            <p class="fragment" style="color: darkred; font-size: 0.9em">
+              <b>SAME?</b><br />
+              &harr;<br />
+              <b>DIFF?</b>
+            </p>
+            <div style="width: 50px"></div>
+            <div style="font-size: 0.6em">
+              <p data-markdown>**Brain**</p>
+              <ul>
+                <li data-markdown>information encoded in **??**.</li>
+                <li data-markdown>information implemented as **??**.</li>
+                <li data-markdown>elemental computing units are **??**.</li>
+                <li data-markdown>computation fundamentally **??**.</li>
+                <li data-markdown>
+                  communication usually regulated by **??**.
+                </li>
+                <li data-markdown>has **??** states</li>
+              </ul>
+              <p>...</p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h1 class="slide_heading">Real question</h1>
+          <p class="center fragment strike" data-fragment-index="1">
+            Current approaches in neuroscience failed to help us understand a
+            microprocessor.
+          </p>
+          <!--prettier-ignore-->
+          <p class="center fragment" data-markdown data-fragment-index="1">
+            - What approaches?
+            - Why they fail?
+          </p>
+        </section>
+        <section>
+          <h1 class="slide_heading">What approaches?</h1>
+          <ul class="fragment">
+            <li>(Anatomical) Connectomics</li>
+            <li>Single-cell lesion</li>
+            <li>Single-cell tuning</li>
+            <li>Correlation / Functional connectivities</li>
+            <li>LFP / Oscillations</li>
+            <li>Population activities / Dimension reduction</li>
+          </ul>
+        </section>
+        <section data-auto-animate>
+          <h1 class="slide_heading">Why they fail?</h1>
+          <ol>
+            <li data-id="q1">The brain is different</li>
+            <li data-id="q2">Our approaches are inadequate</li>
+          </ol>
+        </section>
+        <section data-auto-animate>
+          <h1 class="slide_heading">Why they fail?</h1>
+          <ol>
+            <li data-id="q1" data-markdown>
+              specify one or more (hypothetical) scenario where the analysis
+              **in the paper** would actually help us understand the brain,
+              despite their failure in revealing anything about the
+              microprocessor. Then, try to summarize the critical difference
+              between the brain and microprocessor that would make this happen.
+            </li>
+            <li data-id="q2" data-markdown>
+              specify on or more analysis that is **not in the paper** that
+              would help us understand how a microprocessor works, and has the
+              potential to help us understand how other computing system works,
+              including the brain.
+            </li>
+          </ol>
+        </section>
+      </div>
+    </div>
 
     <script src="dist/reveal.js"></script>
     <script src="plugin/notes/notes.js"></script>
@@ -44,8 +164,8 @@
     <script>
       Reveal.initialize({
         hash: true,
-        width: 1024,
-        height: 768,
+        width: 1280,
+        height: 720,
         autoPlayMedia: true,
         slideNumber: "c/t",
         preloadIframes: true,
